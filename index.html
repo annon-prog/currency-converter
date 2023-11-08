@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Input for our amount-->
+    <label for="amount">Amount</label>
+    <input type="text" id="amount" />
+
+    <!--Label to choose the amount to convert from-->
+
+    <label for="from">From</label>
+    <select id="from" name="from">
+      <option id="option-one" value="shillings">Kenyan Shillings</option>
+      <option id="option-two" value="dollars">US Dollars</option>
+      <option id="option-three" value="pounds">British Pounds</option>
+    </select>
+
+    <!--Label to choose the amount to convert to-->
+    <label for="to">To</label>
+    <select id="to" name="to">
+      <option id="option-four" value="shillings">Kenyan Shillings</option>
+      <option id="option-five" value="dollars">US Dollars</option>
+      <option id="option-six" value="pounds">British Pounds</option>
+    </select>
+
+    <!--button to commit the conversion-->
+    <button id="btn">Convert</button>
+
+    <!--Empty div to display the results-->
+    <div id="results"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
